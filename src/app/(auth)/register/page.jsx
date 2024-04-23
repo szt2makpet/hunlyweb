@@ -24,7 +24,7 @@ export default function Register() {
         Already registered?{' '}
         <Link
           href="/login"
-          className="font-medium text-blue-600 hover:underline"
+          className="font-medium text-purple-600 hover:underline"
         >
           Sign in
         </Link>{' '}
@@ -75,7 +75,7 @@ export default function Register() {
           <option>The “Never Use This” podcast</option>
         </SelectField>
         <div className="col-span-full">
-          <Button type="submit" variant="solid" color="blue" className="w-full">
+          <Button type="submit" variant="solid" color="purple" className="w-full">
             <span>
               Sign up <span aria-hidden="true">&rarr;</span>
             </span>
