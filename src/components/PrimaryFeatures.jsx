@@ -31,27 +31,27 @@ function SwirlyDoodle(props) {
 
 const features = [
   {
-    title: 'Payroll',
+    title: 'Marketing',
     description:
-      "Keep track of everyone's salaries and whether or not they've been paid. Direct deposit not supported.",
+      "Engedd meg, hogy közösen felállítsuk a marketing stratégiád.",
     image: screenshotPayroll,
   },
   {
-    title: 'Claim expenses',
+    title: 'Fiók menedzser',
     description:
-      "All of your receipts organized into one place, as long as you don't mind typing in the data by hand.",
+      "Csatolunk egy dedikált kollégát a fiókodhoz hogyha bármi kérdésed van elérj minket.",
     image: screenshotExpenses,
   },
   {
-    title: 'VAT handling',
+    title: 'Mentoráció',
     description:
-      "We only sell our software to companies who don't deal with VAT at all, so technically we do all the VAT stuff they need.",
+      "Fiókodat ellenőrizzük, és elemezzük ezzel segítünk javítani az előfizetőid élményét.",
     image: screenshotVatReturns,
   },
   {
-    title: 'Reporting',
+    title: 'Speciális megoldások',
     description:
-      'Easily export your data into an Excel spreadsheet where you can do whatever the hell you want with it.',
+      'Fiókodhoz tartozó mellékmunkálatok egy részét átvállaljuk hogy neked csak a legfontosabb dolgokkal keljen foglalkozni.',
     image: screenshotReporting,
   },
 ]
@@ -95,7 +95,7 @@ export function PrimaryFeatures() {
               <SwirlyDoodle className="absolute left-0 top-1/2 h-[1em] w-full fill-purple-800" />
               <span className="relative"> egyhelyen</span>
             </span>{' '}
-            .
+            
           </h2>
           <p className="mt-6 text-lg tracking-tight text-purple-100">
            A szolgáltatásunk egy komplex megoldást jelent a modellek számára, amely egyedi, személyre szabott támogatást és mentorálást nyújt.

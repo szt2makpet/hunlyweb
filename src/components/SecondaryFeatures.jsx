@@ -12,10 +12,10 @@ import screenshotProfitLoss from '@/images/screenshots/profit-loss.png'
 
 const features = [
   {
-    name: 'Reporting',
-    summary: 'Stay on top of things with always up-to-date reporting features.',
+    name: 'Dinamikus növekedés',
+    summary: 'Egyik modellünk már 8 hét alatt 4 milliós kifizetésre tett szert.',
     description:
-      'We talked about reporting in the section above but we needed three items here, so mentioning it one more time for posterity.',
+      'Nem a levegőbe beszélünk, a modelleink elégedettsége az első. Igyekszünk hogy nálunk megtaláld a helyed és kialakítsd bevételi forrásod.',
     image: screenshotProfitLoss,
     icon: function ReportingIcon() {
       let id = useId()
@@ -46,11 +46,11 @@ const features = [
     },
   },
   {
-    name: 'Inventory',
+    name: 'Követhető feladatok',
     summary:
-      'Never lose track of what’s in stock with accurate inventory tracking.',
+      'Megmutatjuk neked, pontosan mit kell tenned a sikerért.',
     description:
-      'We don’t offer this as part of our software but that statement is inarguably true. Accurate inventory tracking would help you for sure.',
+      'Nem kell, hogy egyedül küzd le feladataid, itt vagyunk neked hogy segítsünk elérni a célod és megoldani a kihívásokat.',
     image: screenshotInventory,
     icon: function InventoryIcon() {
       return (
@@ -74,11 +74,11 @@ const features = [
     },
   },
   {
-    name: 'Contacts',
+    name: 'Fiók menedzser',
     summary:
-      'Organize all of your contacts, service providers, and invoices in one place.',
+      'Minden ügyfelünk osztozhat a nehézségekben.',
     description:
-      'This also isn’t actually a feature, it’s just some friendly advice. We definitely recommend that you do this, you’ll feel really organized and professional.',
+      'A dedikált ügynökeink a fiókodat fogják elemezni és segítenek jobbak lenni illetve kérdés esetén igyekszenek a lehető leghamarabb válaszolni.',
     image: screenshotContacts,
     icon: function ContactsIcon() {
       return (
@@ -218,11 +218,10 @@ export function SecondaryFeatures() {
       <Container>
         <div className="mx-auto max-w-2xl md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-            Simplify everyday business tasks.
+            Miért pont mi? Speciális megoldások.
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Because you’d probably be a little confused if we suggested you
-            complicate your everyday business tasks instead.
+            A Hunly több éves tapasztalattal rendelkezik Marketing és Ügyfélkezelés területen, így biztosíthatjuk neked szakértelmünket ezen a területen.
           </p>
         </div>
         <FeaturesMobile />

@@ -6,10 +6,10 @@ import '@/styles/tailwind.css'
 export const metadata = {
   title: {
     template: '%s - Hunly',
-    default: 'Hunly - Accounting made simple for small businesses',
+    default: 'Hunly - OnlyFans Model Agency',
   },
   description:
-    'Most bookkeeping software is accurate, but hard to use. We make the opposite trade-off, and hope you don’t get audited.',
+    'Magyarország egyik leggyorsabban növekvő Onlyfans ügynöksége. Nálunk a modellek az elsők!',
 }
 
 const inter = Inter({

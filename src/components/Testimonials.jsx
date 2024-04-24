@@ -11,19 +11,19 @@ const testimonials = [
   [
     {
       content:
-        'Hunly is so easy to use I can’t help but wonder if it’s really doing the things the government expects me to do.',
+        "Since I've been working with the Hunly team, I have more time to do everything and even my income has increased. Brilliant team!",
       author: {
-        name: 'Sheryl Berge',
-        role: 'CEO at Lynch LLC',
+        name: 'Amy Berge',
+        role: 'Hunly Modell',
         image: avatarImage1,
       },
     },
     {
       content:
-        'I’m trying to get a hold of someone in support, I’m in a lot of trouble right now and they are saying it has something to do with my books. Please get back to me right away.',
+        'Próbálkoztam egyedül is a fiókom kezelésével, kisebb-nagyobb sikereket el is értem egyedül. De azért látszik a szakértelmük, ezt már egyedül nem tudtam volna.',
       author: {
-        name: 'Amy Hahn',
-        role: 'Director at Velocity Industries',
+        name: 'Szilvia Kovács',
+        role: 'Hunly Modell',
         image: avatarImage4,
       },
     },
@@ -31,19 +31,19 @@ const testimonials = [
   [
     {
       content:
-        'The best part about Hunly is every time I pay my employees, my bank balance doesn’t go down like it used to. Looking forward to spending this extra cash when I figure out why my card is being declined.',
+        'A Marketing eszközük amit ez a csapat nyújt tökéletes. TikTokon az 1.000 követő 3 hét alatt megvolt. Bátran ajánlom őket.',
       author: {
-        name: 'Leland Kiehn',
-        role: 'Founder of Kiehn and Sons',
+        name: 'Makan Peter',
+        role: 'Founder of highSignals',
         image: avatarImage5,
       },
     },
     {
       content:
-        'There are so many things I had to do with my old software that I just don’t do at all with Hunly. Suspicious but I can’t say I don’t love it.',
+        'Hihetetlen hálás vagyok a munkájukért. 8 hét alatt közel 2 millió forintot keresek napi 2-3 óra munkával.',
       author: {
-        name: 'Erin Powlowski',
-        role: 'COO at Armstrong Inc',
+        name: 'Mollykaa98',
+        role: 'Hunly Modell',
         image: avatarImage2,
       },
     },
@@ -51,20 +51,11 @@ const testimonials = [
   [
     {
       content:
-        'I used to have to remit tax to the EU and with Hunly I somehow don’t have to do that anymore. Nervous to travel there now though.',
+        'Olyan technológiát értékesitünk amit a piacon nehéz eladni, a srácok viszont hozzák a kötelezőt. Köszönöm hogy a részese lehetek.',
       author: {
-        name: 'Peter Renolds',
-        role: 'Founder of West Inc',
+        name: 'István Bükk',
+        role: 'Founder of Stellar.',
         image: avatarImage3,
-      },
-    },
-    {
-      content:
-        'This is the fourth email I’ve sent to your support team. I am literally being held in jail for tax fraud. Please answer your damn emails, this is important.',
-      author: {
-        name: 'Amy Hahn',
-        role: 'Director at Velocity Industries',
-        image: avatarImage4,
       },
     },
   ],
@@ -88,12 +79,10 @@ export function Testimonials() {
       <Container>
         <div className="mx-auto max-w-2xl md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-            Loved by businesses worldwide.
+            Világszerte szeretik ügynökségünk
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Our software is so simple that people can’t help but fall in love
-            with it. Simplicity is easy when you just skip tons of
-            mission-critical features.
+            Olvasd lentebb, mit gondolnak rólunk azok a modellek akiknek már bizonyítottunk.
           </p>
         </div>
         <ul

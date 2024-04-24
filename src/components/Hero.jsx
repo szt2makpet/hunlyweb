@@ -28,7 +28,7 @@ export function Hero() {
         a szakértők kezében van
       </h1>
       <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
-      Szakértő csapatunk személyre szabott támogatást nyújt modelleinknek,
+      Szakértő csapatunk személyre szabott támogatást nyújt OnlyFans modelleinknek,
        és partnerek a sikerük felé vezető úton.
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
@@ -59,11 +59,7 @@ export function Hero() {
               { name: 'Transistor', logo: logoTransistor },
               { name: 'Tuple', logo: logoTuple },
               { name: 'StaticKit', logo: logoStaticKit },
-            ],
-            [
               { name: 'Mirage', logo: logoMirage },
-              { name: 'Laravel', logo: logoLaravel },
-              { name: 'Statamic', logo: logoStatamic },
             ],
           ].map((group, groupIndex) => (
             <li key={groupIndex}>

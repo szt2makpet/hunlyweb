@@ -6,53 +6,48 @@ import backgroundImage from '@/images/background-faqs.jpg'
 const faqs = [
   [
     {
-      question: 'Does Hunly handle VAT?',
+      question: 'Mennyibe kerül ez nekem?',
       answer:
-        'Well no, but if you move your company offshore you can probably ignore it.',
+        'A Hunly ügynökség rugalmas a bérezésben, több opció közül választhatnak a modellek.',
     },
     {
-      question: 'Can I pay for my subscription via purchase order?',
-      answer: 'Absolutely, we are happy to take your money in all forms.',
+      question: 'Mitől jobb a Ti marketingetek másokétól?',
+      answer: 'Teljes marketing stratégiát alakítunk ki számodra, hogy organikusan tudj rengeteg emberhez elérni.',
     },
     {
-      question: 'How do I apply for a job at Hunly?',
+      question: 'Mire számítsak csatlakozáskor?',
       answer:
-        'We only hire our customers, so subscribe for a minimum of 6 months and then let’s talk.',
+        'Egy kellemes online beszélgetésre foglalhatsz nálunk időpontot, ahol felteheted kérdéseid toborzó kollégánknak.',
     },
   ],
   [
     {
-      question: 'What was that testimonial about tax fraud all about?',
+      question: 'Csak Magyarországról tudok dolgozni veletek?',
       answer:
-        'Hunly is just a software application, ultimately your books are your responsibility.',
+        'Természetesen nem. A Hunly-vel bárhol dolgozhatsz mivel bevételed és feladataid helyfüggetlenek.',
     },
     {
       question:
-        'Hunly sounds horrible but why do I still feel compelled to purchase?',
+        'Mi van ha nem vagyok veletek elégedett?',
       answer:
-        'This is the power of excellent visual design. You just can’t resist it, no matter how poorly it actually functions.',
+        'A szerződés bontás feltételeiről mindkét fél beleegyezésével elállhatsz.',
     },
     {
       question:
-        'I found other companies called Hunly, are you sure you can use this name?',
+        'Mikkel kell foglalkoznom munkám során?',
       answer:
-        'Honestly not sure at all. We haven’t actually incorporated or anything, we just thought it sounded cool and made this website.',
+        'Őszintén szólva, a te feladatod csupán a Modellkedés és hogy tájékoztass minket fiókod állapotáról.',
     },
   ],
   [
     {
-      question: 'How do you generate reports?',
+      question: 'Az arcomat is kell mutatnom?',
       answer:
-        'You just tell us what data you need a report for, and we get our kids to create beautiful charts for you using only the finest crayons.',
+        'A rövid válasz az hogy nem. Azonban azok a modelleink akik az arcukat is használják gyorsabb növekedést érnek el általában.',
     },
     {
-      question: 'Can we expect more inventory features?',
-      answer: 'In life it’s really better to never expect anything at all.',
-    },
-    {
-      question: 'I lost my password, how do I get into my account?',
-      answer:
-        'Send us an email and we will send you a copy of our latest password spreadsheet so you can find your information.',
+      question: 'Nem vagyok nő, dolgozhatok veletek?',
+      answer: 'Általánosságban elmondható hogy a Hunly női OnlyFans modellekkel dolgozik mivel szakmai hozzáértésünk erre specializálódott.',
     },
   ],
 ]
@@ -78,11 +73,10 @@ export function Faqs() {
             id="faq-title"
             className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl"
           >
-            Frequently asked questions
+            Gyakran ismételt kérdések
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            If you can’t find what you’re looking for, email our support team
-            and if you’re lucky someone will get back to you.
+            Ha nem találtad meg kérdésedre a választ, írj nekünk üzenetet ide: info@hunly.hu
           </p>
         </div>
         <ul
