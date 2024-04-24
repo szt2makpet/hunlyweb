@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 158.1 48">
+  <defs>
+    <style>
+      .a {
+        font-size: 20.36px;
+        font-family: NeueHaasDisplay-Mediu, Neue Haas Grotesk Display Pro;
+      }
+
+      .a, .b {
+        fill: #334155;
+      }
+
+      .c {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <text class="a" transform="translate(54.4 30.9)">highSignals</text>
+  <polyline class="b" points="1.8 35.6 8.1 29.4 13.5 34.8 26.3 22.6 46.2 12.3 26.5 31.7 26.3 22.6"/>
+  <rect class="c" width="158" height="48"/>
+</svg>
