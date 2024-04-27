@@ -108,7 +108,7 @@ export function Header() {
             <div className="hidden md:block">
               <NavLink href="https://www.instagram.com/hunly.hu/">Instagram</NavLink>
             </div>
-            <Button href="/HAMAROSAN" color="purple">
+            <Button href="/jelentkezes" color="purple">
               <span>
                 Modell Jelentkezés
               </span>
