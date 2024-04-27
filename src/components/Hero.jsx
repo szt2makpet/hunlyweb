@@ -32,7 +32,7 @@ export function Hero() {
        és partnerek a sikerük felé vezető úton.
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
-        <Button href="/HAMAROSAN">Jelentkezem</Button>
+        <Button href="tel:+36205876067">Hívj fel minket</Button>
         <Button
           href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
           variant="outline"

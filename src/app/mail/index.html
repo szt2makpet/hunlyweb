@@ -1,0 +1,17 @@
+import React from 'react';
+
+class RedirectButton extends React.Component {
+  redirectToWebmail = () => {
+    window.location.href = 'https://87.229.6.12:8080/webmail';
+  };
+
+  render() {
+    return (
+      <div>
+        <button onClick={this.redirectToWebmail}>Webmail megnyitása</button>
+      </div>
+    );
+  }
+}
+
+export default RedirectButton;
